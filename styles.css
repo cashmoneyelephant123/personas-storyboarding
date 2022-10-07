@@ -1,0 +1,84 @@
+html {
+    margin: auto;
+    background-color: #F8EDE3;
+}
+
+
+body {
+    vertical-align: middle;
+    text-align: center;
+}
+
+ol,
+ul {
+    list-style-position: inside;
+}
+
+li {
+    padding-bottom: 1%;
+
+}
+
+.coffee_machine {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+}
+
+.sketches {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sketch-item {
+    padding-bottom: 1%;
+    width: 300px;
+}
+
+.people {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.person {
+    outline: 1px solid black;
+    outline-offset: 10px;
+    width: 25%;
+    text-align: left;
+}
+
+.person-header {
+    text-align: center;
+}
+
+.personas {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.persona-content {
+    margin: auto;
+}
+
+.persona {
+    height: 300px;
+    width: 500px;
+}
+
+.storyboard {
+    height: 400px;
+    width: 800px;
+}
+
+.section {
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    outline-offset: 10px;
+}
